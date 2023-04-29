@@ -10,11 +10,10 @@ const Profil = () => {
       <Navbar />
 
       <>
-      <div className="min-h-screen flex flex-col max-w-md mx-auto bg-gray-200 opacity-100 font-poppins px-4 bg-no-repeat bg-cover bg-center">
-        
+      <div className="min-h-screen flex flex-col w-96 h-96 mx-auto  opacity-100 font-poppins px-4 bg-no-repeat bg-cover bg-center">
         <div className="flex items-center px-4 pt-12 justify-between">
           <div className="w-24 h-24 bg-white-600 flex items-center rounded-full">
-            <CgProfile style={{ height : 70 , width : 70 , marginLeft : 20}}/>
+            <CgProfile style={{ height : 90 , width : 90 , marginLeft : 20}}/>
           </div>
           <div className="w-9/12 flex items-center">
             <div className="w-10/12 flex flex-col leading-none pl-4">
@@ -45,17 +44,17 @@ const Profil = () => {
           <div className="flex w-full pt-2 space-x-2">
            
             <button className="bg-green-800 w-96 rounded-full px-4 py-2 font-ligth text-white flex">
-                Number of Groupes :
+                Number of Groupes : 5 Groups
             </button>
            
           </div>
 
           <button className="bg-red-800 w-96 rounded-full px-4 py-2 font-ligth text-white flex mt-8">
-          Modul :
+          Modul : 2 modul
       </button>
 
           <button className="bg-red-800 w-96 rounded-full px-4 py-2 font-ligth text-white flex mt-8 ">
-                Email :
+                Email : ahmed@gmail.com
             </button>
         </div>
         <div className="pt-12 px-4 w-full flex flex-col">
